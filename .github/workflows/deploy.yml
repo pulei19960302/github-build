@@ -3,7 +3,7 @@ name: Deploy React App
 on:
   push:
     branches:
-      - main # 监听 main 分支的 push
+      - master # 监听 master 分支的 push
 
 jobs:
   build-and-deploy:
