@@ -1,5 +1,8 @@
 name: Deploy React App
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
