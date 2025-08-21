@@ -6,6 +6,8 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
+  base: '/github-build/',
+  publicPath: '/github-build/',
   layout: {
     title: '@umijs/max',
   },
